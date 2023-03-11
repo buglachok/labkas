@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>laba 1</title>
+
+<h1>Усім привіт!</h1>
+<h1 align="center">Мене звати Андрій Буглак</h1>
+<h2 align="right">Я студент групи ТЗ-12</h2>
+
+<p><hr></p>
+
+<p>За <a href="https://history.znaj.ua/226693-divovizhna-poroda-sobak-z-naykrasivishimi-ochima-istoriya-sibirskoji-haski"><i>цим посиланням</i></a> ви можете знайти цікаву інформацію про <b>мову розмітки HTML5</b> та <b>мову стилів CSS3</b>.</p>
+<p>А цю картинку я побачив на просторах інтернету і хочу нею з вами поділитися</p>
+
+<body>
+<p align="center"><a href="https://history.znaj.ua/226693-divovizhna-poroda-sobak-z-naykrasivishimi-ochima-istoriya-sibirskoji-haski"><img 
+src="https://znaj.ua/crops/7647ce/620x0/1/0/2019/04/17/A6Z8A1y2kGuGoezbml2Ufvlvib9dYQlTJLSnXvtN.jpeg"></a> 
+
+</p>
+
+
+
+<p>Вона <b>клікабельна</b> і якщо <b>по ній <i>клікнути</i></b>, то можна перейти на сайт, звідки її було взято.</p>
+
+</body>
+</html>
