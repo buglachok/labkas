@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3</title>
+</head>
+
+<body>
+    <table border="2">
+        <tr>
+            <td colspan="2" align="center">
+                <b>Pizza Shop 2.0</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Name
+            </td>
+            <td>
+                <input placeholder="Enter Your Name" required size="29">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pizza Topping
+            </td>
+            <td>
+                <input id="choice_1" name="radio" type="radio" value="1" />
+                <label for="choice_1">Supreme</label><br />
+                <input id="choice_2" name="radio" type="radio" value="2" />
+                <label for="choice_2">Vegetarian</label><br />
+                <input id="choice_3" name="radio" type="radio" value="3" />
+                <label for="choice_3">Hawaiian</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pizza Sauce
+            </td>
+            <td>
+                <select name="Souce">
+                    <option value="1">Tomato</option>
+                    <option value="2">Cheese</option>
+                    <option value="3">BBQ</option>
+                    <option value="4">Bolognese</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Optional Extras
+            </td>
+            <td>
+                <input type="checkbox" id="Cheese" name="Cheese">
+                <label for="Cheese">Cheese</label>
+                <input type="checkbox" id="Gluten" name="Gluten">
+                <label for="Gluten">Gluten Free Base</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Delivery Instructions: <br>
+
+                <input placeholder="I want an inscription on the box" required size="46" height="20">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="button" value="Send my Order">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
