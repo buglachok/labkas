@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Calculator Lab4</title>
-  </head>
-  <body>
-    <div id="calculator">
-      <input type = "text" id="input" disabled>
-      
-      <div class = "button" data-type="7">7</div>
-      <div class = "button" data-type="8">8</div>
-      <div class = "button" data-type="9">9</div>
-      <div class = "button" data-type="/">/</div>
-      <div class = "button" data-type="4">4</div>
-      <div class = "button" data-type="5">5</div>
-      <div class = "button" data-type="6">6</div>
-      <div class = "button" data-type="*">*</div>
-      <div class = "button" data-type="1">1</div>
-      <div class = "button" data-type="2">2</div>
-      <div class = "button" data-type="3">3</div>
-      <div class = "button" data-type="+">+</div> 
-      <div class = "button" data-type="0">0</div>
-      <div class = "button" data-type=".">.</div>
-      <div class = "button" data-type="=">=</div>
-      <div class = "button" data-type="-">-</div>   
-      <div class = "button" data-type="C">C</div>
-      
+<head>
+    <link rel="stylesheet" href="./lab4.css">
+    <title>lab4</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="up">
+            <div class="result-global-div">
+                <p class="result-global">0</p>
+            </div>
+        </div>
+        <ul class="ul-global">
+            <div class="container-buttons">
+                <div class="button-wrapper upSide"><li class="AC"><p class="text-buttons">AC</p></li></div>
+                <div class="button-wrapper upSide"><li class="plus-minus"><p class="text-buttons">±</p></li></div>
+                <div class="button-wrapper upSide"><li class="percent"><p class="text-buttons">%</p></li></div>
+                <div class="button-wrapper colorRightSide"><li class="divide"><p class="text-buttons">÷</p></li></div>
+                <div class="button-wrapper colorMain"><li class="seven"><p class="text-buttons">7</p></li></div>
+                <div class="button-wrapper colorMain"><li class="eight"><p class="text-buttons">8</p></li></div>
+                <div class="button-wrapper colorMain"><li class="nine"><p class="text-buttons">9</p></li></div>
+                <div class="button-wrapper colorRightSide"><li class="multiply"><p class="text-buttons">×</p></li></div>
+                <div class="button-wrapper colorMain"><li class="four"><p class="text-buttons">4</p></li></div>
+                <div class="button-wrapper colorMain"><li class="five"><p class="text-buttons">5</p></li></div>
+                <div class="button-wrapper colorMain"><li class="six"><p class="text-buttons">6</p></li></div>
+                <div class="button-wrapper colorRightSide"><li class="minus"><p class="text-buttons">-</p></li></div>
+                <div class="button-wrapper colorMain"><li class="one"><p class="text-buttons">1</p></li></div>
+                <div class="button-wrapper colorMain"><li class="two"><p class="text-buttons">2</p></li></div>
+                <div class="button-wrapper colorMain"><li class="three"><p class="text-buttons">3</p></li></div>
+                <div class="button-wrapper colorRightSide"><li class="plus"><p class="text-buttons">+</p></li></div>
+            </div>
+            <div class="down-buttons">
+                <div class="button-wrapper zero-div colorMain"><li class="zero"><p class="text-buttons">0</p></li></div>
+                <div class="button-wrapper colorMain"><li class="coma"><p class="text-buttons">,</p></li></div>
+                <div class="button-wrapper colorRightSide result-div colorMain"><li class="result"><p class="text-buttons">=</p></li></div>
+            </div>
+        </ul>
     </div>
-
-    <script src="./script.js"></script>
-  </body>
+</body>
 </html>
